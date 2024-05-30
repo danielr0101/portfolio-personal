@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Proyects Manager",
+    "organisation": "Ariona Devs",
+    "startDate": "Jan, 2024",
+    "endDate": "Present",
+    "experiences": ["Creation of design and projects", "Project management", "Software development"],
+    "imageSrc": "history/ariona-devs.png"
+  },
+  {
+    "role": "Programmer Analyst",
+    "organisation": "Recursos Informáticos",
+    "startDate": "Apr, 2021",
+    "endDate": "Present",
+    "experiences": ["Requirements analysis", "Solution design", "Testing and debugging", "Software development", "Maintenance and support"],
+    "imageSrc": "history/rinformaticos.png"
+  }
+]

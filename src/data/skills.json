@@ -1,0 +1,86 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "TailWind",
+    "imageSrc": "skills/tw.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/dj.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/csharp.png"
+  },
+  {
+    "title": ".Net",
+    "imageSrc": "skills/dotnet.png"
+  },
+  {
+    "title": "Unity",
+    "imageSrc": "skills/unity.png"
+  },
+  {
+    "title": "Godot",
+    "imageSrc": "skills/godot.png"
+  },
+  {
+    "title": "GdScript",
+    "imageSrc": "skills/gd_script.png"
+  },
+  {
+    "title": "Sql",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgre_sql.png"
+  },
+  {
+    "title": "SQLite",
+    "imageSrc": "skills/sqlite.png"
+  },
+  {
+    "title": "PL Sql",
+    "imageSrc": "skills/plsql.png"
+  },
+  {
+    "title": "Blender",
+    "imageSrc": "skills/blender.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+]
