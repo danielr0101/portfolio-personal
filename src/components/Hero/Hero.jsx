@@ -1,15 +1,20 @@
+// Hero.jsx
+// Hero.jsx
 import React from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Hero = () => {
+export const Hero = ({ language }) => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Daniel</h1>
+        <h1 className={styles.title}>
+          {language === 'en' ? "Hi, I'm Daniel" : "Hola, soy Daniel"}
+        </h1>
         <p className={styles.description}>
-        Analyst Programmer with extensive experience in web application development, desktop applications, and video games!
+          {language === 'en' 
+            ? "Analyst Programmer with extensive experience in web application development, desktop applications, and video games!" 
+            : "¡Programador analista con amplia experiencia en el desarrollo de aplicaciones web, aplicaciones de escritorio y videojuegos!"}
         </p>
       </div>
       <img
@@ -22,3 +27,4 @@ export const Hero = () => {
     </section>
   );
 };
+

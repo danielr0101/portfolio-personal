@@ -1,20 +1,18 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project, language }) => {
+  const { title, imageSrc, description, skills, source } = project;
   return (
     <div className={styles.container}>
       <img
         src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
+        alt={`Image of ${title[language]}`}
         className={styles.image}
       />
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      <h3 className={styles.title}>{title[language]}</h3>
+      <p className={styles.description}>{description[language]}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
@@ -25,10 +23,13 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={source} className={styles.link} target="_blank">
+        <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
           Source
         </a>
       </div>
     </div>
   );
 };
+
+export default ProjectCard;
+

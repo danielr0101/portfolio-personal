@@ -15,6 +15,7 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  margin-right: 20px;
 }
 
 
@@ -24,6 +25,7 @@
 
 .menu {
   display: flex;
+  margin-left: 20px;
 }
 
 .menuItems {
@@ -37,6 +39,11 @@
   color: var(--color-text);
   text-decoration: none;
 }
+
+.switch {
+  margin-top: 10px;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {
@@ -52,6 +59,12 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+  }
+
+  .switch {
+    position: absolute;
+    margin-top: 5px;
+    left: 50%;
   }
 
   .menuBtn {

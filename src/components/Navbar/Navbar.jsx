@@ -1,16 +1,20 @@
+// Navbar.jsx
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import Switch from "../Switch/Switch";
 
-export const Navbar = () => {
+export const Navbar = ({ toggleLanguage, language }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        Portfolio 
       </a>
+      <div className={styles.switch}>
+        <Switch rounded={true} onToggle={toggleLanguage} />
+      </div>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -27,19 +31,22 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">{language === 'en' ? 'About' : 'SobreMí'}</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">{language === 'en' ? 'Experience' : 'Experiencia'}</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">{language === 'en' ? 'Projects' : 'Proyectos'}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{language === 'en' ? 'Contact' : 'Contacto'}</a>
           </li>
         </ul>
       </div>
     </nav>
   );
 };
+
+export default Navbar;
+

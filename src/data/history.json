@@ -1,18 +1,43 @@
 [
   {
-    "role": "Proyects Manager",
+    "role": {
+      "en": "Project Manager",
+      "es": "Gerente de Proyectos"
+    },
     "organisation": "Ariona Devs",
-    "startDate": "Jan, 2024",
-    "endDate": "Present",
-    "experiences": ["Creation of design and projects", "Project management", "Software development"],
+    "startDate": {
+      "en": "Jan, 2024",
+      "es": "Enero, 2024"
+    },
+    "endDate": {
+      "en": "Present",
+      "es": "Presente"
+    },
+    "experiences": {
+      "en": ["Creation of design and projects", "Project management", "Software development"],
+      "es": ["Creación de diseños y proyectos", "Gestión de proyectos", "Desarrollo de software"]
+    },
     "imageSrc": "history/ariona-devs.png"
   },
   {
-    "role": "Programmer Analyst",
+    "role": {
+      "en": "Programmer Analyst",
+      "es": "Analista Programador"
+    },
     "organisation": "Recursos Informáticos",
-    "startDate": "Apr, 2021",
-    "endDate": "Present",
-    "experiences": ["Requirements analysis", "Solution design", "Testing and debugging", "Software development", "Maintenance and support"],
+    "startDate": {
+      "en": "Apr, 2023",
+      "es": "Abril, 2023"
+    },
+    "endDate": {
+      "en": "Present",
+      "es": "Presente"
+    },
+    "experiences": {
+      "en": ["Requirements analysis", "Solution design", "Testing and debugging", "Software development", "Maintenance and support"],
+      "es": ["Análisis de requisitos", "Diseño de soluciones", "Pruebas y depuración", "Desarrollo de software", "Mantenimiento y soporte"]
+    },
     "imageSrc": "history/rinformaticos.png"
   }
 ]
+

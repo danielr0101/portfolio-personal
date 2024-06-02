@@ -1,0 +1,76 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #ccc;
+
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    background-image: url('flagEngland.png'); 
+    background-size: cover; 
+    background-position: center; 
+    transition: 0.4s;
+}
+
+.slider:after {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    right: 8px;
+    top: 12px;
+    background-image: url('flagSpain.png'); 
+    background-size: cover; 
+    background-position: center; 
+    transition: 0.4s;
+}
+
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+    background-image: url('flagSpain.png'); 
+}
+
+input:checked + .slider:after {
+    left: 6px;
+    right: auto;
+    background-image: url('flagEngland.png'); 
+}
+
+.slider.rounded {
+    border-radius: 34px;
+} 
+
+.slider.rounded:before {
+    border-radius: 50%;
+}
+
+.slider.rounded:after {
+    border-radius: 50%;
+}

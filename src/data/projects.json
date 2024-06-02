@@ -1,8 +1,14 @@
 [
   {
-    "title": "Sudoku Generator",
+    "title": {
+      "en": "Sudoku Generator",
+      "es": "Generador de Sudoku"
+    },
     "imageSrc": "projects/project-sudoku.png",
-    "description": "This project allows the automatic creation of PNG files of sudokus, ready for the creation of books or PDF files.",
+    "description": {
+      "en": "This project allows the automatic creation of PNG files of sudokus, ready for the creation of books or PDF files.",
+      "es": "Este proyecto permite la creación automática de archivos PNG de sudokus, listos para la creación de libros o archivos PDF."
+    },
     "skills": ["Python"],
     "source": "https://github.com/danielr0101/sudoku-generator.git"
   }
