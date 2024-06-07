@@ -10,7 +10,7 @@ export const Navbar = ({ toggleLanguage, language }) => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio 
+        Daniel Rinaudo
       </a>
       <div className={styles.switch}>
         <Switch rounded={true} onToggle={toggleLanguage} />

@@ -43,14 +43,18 @@
 .switch {
   position: absolute;
   margin-top: 13px;
-  left: 19%;
+  left: 27%;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .title {
+    font-size: 18px;
+    margin-top: 7px;
   }
 
   .menu {
@@ -67,7 +71,6 @@
     position: absolute;
     margin-top: 4px;
     left: 50%;
-
   }
 
   .menuBtn {
